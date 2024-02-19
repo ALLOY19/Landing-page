@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: grey;
+}
+
+body {
+    background-image: url('./images/gabriel-rissi-JoJuM-n20zo-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.2rem;
+}
+
+nav ul {
+    color: grey;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul li {
+    margin-right: 40px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.search-container {
+    display: flex;
+    font-size: 15px;
+    cursor: pointer;
+    color: grey;
+}
+
+.material-symbols-outlined {
+    font-size: 17px;
+    padding-right: 10px;
+}
+
+header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.line {
+    width: 60px;
+    height: 2px;
+    /* background: #241f1a; */
+    background: #f7bf7d;
+    margin-right: 20px;
+}
+
+.header-text-one {
+    display: flex;
+    align-items: center;
+    color: #f7bf7d;
+    /* color: #241f1a; */
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-text-one p {
+    background: #241f1a;
+}
+
+.header-text-two {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .header-text-two {
+        font-size: 20px;
+    }
+}
+
+.bigger {
+    font-weight: 800;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 5rem;
+    align-items: center;
+}
+
+.social-links i {
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.follow-us {
+    font-size: 14px;
+    transform: rotate(90deg);
+    margin-bottom: 3rem;
+}
+
+.scroll-down {
+    display: flex;
+    position: absolute;
+    left: 46%;
+    bottom: 25%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.down-arrow {
+    font-size: 28px;
+    padding-left: 3px;
+    font-weight: 100;
+}
+
